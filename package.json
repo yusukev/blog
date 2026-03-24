@@ -21,6 +21,8 @@
     "sharp": "^0.34.3"
   },
   "devDependencies": {
+    "prettier": "3.8.1",
+    "prettier-plugin-astro": "0.14.1",
     "wrangler": "^4.77.0"
   }
 }
