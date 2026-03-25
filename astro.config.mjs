@@ -9,6 +9,7 @@ import cloudflare from '@astrojs/cloudflare'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://yusukev.com',
+  trailingSlash: 'never',
   integrations: [mdx(), sitemap()],
   adapter: cloudflare({
     platformProxy: {
