@@ -8,8 +8,6 @@ import Header from '../components/Header.astro'
 type Props = CollectionEntry<'blog'>['data']
 
 const { title, description, pubDate, updatedDate } = Astro.props
-
-const slug = Astro.url.pathname.replace(/^\/|\/$/g, '')
 ---
 
 <html lang="en">
@@ -20,15 +18,6 @@ const slug = Astro.url.pathname.replace(/^\/|\/$/g, '')
         width: calc(100% - 2em);
         max-width: 100%;
         margin: 0;
-      }
-      .hero-image {
-        width: 100%;
-      }
-      .hero-image img {
-        display: block;
-        margin: 0 auto;
-        border-radius: 12px;
-        box-shadow: var(--box-shadow);
       }
       .prose {
         width: 720px;
@@ -60,9 +49,6 @@ const slug = Astro.url.pathname.replace(/^\/|\/$/g, '')
     <Header />
     <main>
       <article>
-        <div class="hero-image">
-          <img width={1020} height={510} src={`/og/${slug}.png`} alt="" />
-        </div>
         <div class="prose">
           <div class="title">
             <div class="date">
