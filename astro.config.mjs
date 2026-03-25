@@ -11,4 +11,9 @@ export default defineConfig({
   site: 'https://yusukev.com',
   integrations: [mdx(), sitemap()],
   adapter: cloudflare(),
+  image: {
+    service: {
+      entrypoint: 'astro/assets/services/noop',
+    },
+  },
 })
