@@ -10,10 +10,10 @@ import cloudflare from '@astrojs/cloudflare'
 export default defineConfig({
   site: 'https://yusukev.com',
   integrations: [mdx(), sitemap()],
-  adapter: cloudflare(),
-  image: {
-    service: {
-      entrypoint: 'astro/assets/services/noop',
+  adapter: cloudflare({
+    platformProxy: {
+      enabled: true,
     },
-  },
+    imageService: 'cloudflare',
+  }),
 })
