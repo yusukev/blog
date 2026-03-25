@@ -15,6 +15,7 @@
   --box-shadow:
     0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
     0 16px 32px rgba(var(--gray), 33%);
+  --header-height: 64px;
 }
 @font-face {
   font-family: 'Atkinson';
@@ -47,6 +48,7 @@ main {
   max-width: calc(100% - 2em);
   margin: auto;
   padding: 3em 1em;
+  min-height: calc(100vh - var(--header-height));
 }
 h1,
 h2,
