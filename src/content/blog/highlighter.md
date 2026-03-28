@@ -26,14 +26,14 @@ That's it. No spec doc, no wireframe. Just what I wanted in plain English.
 
 ## What Claude Code gave me
 
-It generated four files:
+It generated five files:
 
 - `manifest.json` — Manifest V3 config with the right permissions
 - `content.js` — the highlighting logic and floating toolbar, injected into every page
-- `popup.html` — a simple popup showing highlights on the current page
-- `styles.css` — highlight colors and toolbar styling
+- `content.css` — highlight colors and toolbar styling
+- `icon128.png`, `icon48.png`
 
-The whole thing was maybe 100 lines of code total. I didn't write any of it.
+The whole thing was about 300 lines of code total. I didn't write any of it.
 
 ## Loading it locally
 
@@ -41,55 +41,17 @@ Before publishing anything, you want to test locally. Go to `chrome://extensions
 
 I selected some text on a random article, a little toolbar popped up with three colored dots, I clicked blue, and the text highlighted. Reloaded the page and the highlights were still there. Done.
 
-## The prompt chain
-
-For reference, here's roughly what I asked in order:
-
-1. Build the initial extension (the prompt above)
-2. "Add right-click to remove a highlight."
-3. "Add a popup that shows a list of all highlights on the current page with the option to click one and scroll to it."
-
-Three prompts, maybe 15 minutes total including testing. The popup was the most complex part and Claude Code still got it right on the first try.
-
 ## What I'd add next
 
 Right now it's pretty barebones, which is the point. But if I keep using it, I'll probably add:
 
-- Export highlights as Markdown
-- Search across highlights from all pages
+- Add right-click to remove a highlight
+- Add a sidemenu that shows a list of all highlights on the current page with the option to click one and scroll to it
+- Export highlights summary as Markdown with the power of LLM
+- Add a portal that shows a list of all highlights sorted with website domains and urls (and search, probably)
 - Keyboard shortcut as an alternative to the toolbar
 
 For now though, it does exactly what I need.
-
-## The manifest.json
-
-For the curious, here's what the manifest ended up looking like:
-
-```json
-{
-  "manifest_version": 3,
-  "name": "Minimal Highlighter",
-  "version": "1.0",
-  "description": "Highlight text on any web page. Pick a color, click, done. Highlights persist across reloads.",
-  "permissions": ["storage", "contextMenus", "activeTab"],
-  "action": {
-    "default_popup": "popup.html",
-    "default_icon": "icon-128.png"
-  },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"],
-      "css": ["styles.css"]
-    }
-  ],
-  "background": {
-    "service_worker": "background.js"
-  }
-}
-```
-
-Nothing fancy. The `<all_urls>` permission is intentional here — a highlighter needs to work on every page.
 
 ## Publishing
 
@@ -97,10 +59,6 @@ I'll cover the full publishing process in my next post. Short version: zip it, u
 
 ## Takeaway
 
-I'm not sure I would have built this without Claude Code. Not because it's hard — it's maybe a few hours of work for someone comfortable with Chrome extension APIs. But "a few hours" is exactly enough friction to make me not bother. 15 minutes is below the threshold where I just do it.
+I'm not sure I would have built this without Claude Code. But "a few hours" is exactly enough friction to make me not bother. 15 minutes is below the threshold where I just do it.
 
 That's kind of the whole point of this blog. Lots of useful tools don't get built because the effort is just slightly above what feels worth it. Claude Code changes that math.
-
----
-
-*This is [Getting to nowork](https://yusukev.com). I'm primarily building Chrome extensions with Claude Code. Videos on [@noworkdev](https://youtube.com/@noworkdev).*
