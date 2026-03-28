@@ -23,13 +23,11 @@ const { title, description, pubDate, updatedDate } = Astro.props
         width: 720px;
         max-width: calc(100% - 2em);
         margin: auto;
-        padding: 1em;
         color: rgb(var(--gray-dark));
       }
       .title {
         margin-bottom: 1em;
-        padding: 1em 0;
-        text-align: center;
+        padding: 0.5em 0;
         line-height: 1;
       }
       .title h1 {
@@ -51,6 +49,7 @@ const { title, description, pubDate, updatedDate } = Astro.props
       <article>
         <div class="prose">
           <div class="title">
+            <h1>{title}</h1>
             <div class="date">
               <FormattedDate date={pubDate} />
               {
@@ -61,7 +60,6 @@ const { title, description, pubDate, updatedDate } = Astro.props
                 )
               }
             </div>
-            <h1>{title}</h1>
             <hr />
           </div>
           <slot />
