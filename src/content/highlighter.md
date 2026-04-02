@@ -1,7 +1,7 @@
 ---
 title: 'Building a Minimal Web Highlighter with Claude Code'
 description: 'Building a Minimal Web Highlighter with Claude Code'
-pubDate: 'Mar 01 2026'
+# pubDate: 'Mar 01 2026'
 ---
 
 I wanted a simple highlighter for the browser. Select text, click a button, text stays highlighted in blue. Come back later, highlights are still there. That's it.
