@@ -6,9 +6,9 @@ pubDate: 'Apr 02 2026'
 
 As an entrepreneur, I have a paradoxical feeling these days.
 
-I have sold my first startup after 8 years of struggle. It wasn't a huge success, but financially rewarding to some extent. I'm still in the company I've sold but my brain doesn't stop thinking about next startup ideas.
+I have sold my first startup after 8 years of struggle. It wasn't a huge success, but financially rewarding to some extent. I'm still in the company I've sold but I can't stop thinking about next startup ideas.
 
-At the same time, I feel like I don’t have any passion. I clearly burned out. I don’t want to "work" anymore. Especially, I'm not good at working for others. I've lost the ability to function inside a structure I didn't build. Entrepreneurship isn't a choice for me — it's the only mode I know.
+At the same time, I feel like I don’t have any passion. I'm clearly burned out. I don’t want to "work" anymore. Especially, I'm not good at working for others. I've lost the ability to function inside a structure I didn't build. Entrepreneurship isn't a choice for me — it's the only mode I know.
 
 The rapid evolution of AI fuels that feeling. It's getting harder to get traction with incomplete but interesting product, because the AI itself is too interesting. It's now almost impossible to attract attention with some kind of small but useful kind of tool, unless you have a large number of audiences.
 
