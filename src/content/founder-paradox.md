@@ -18,14 +18,14 @@ What should I do at this point? That's a really tough question.
 
 After a long-time pondering, I found out the reason I get depressed or feel threatened by every update from AI vendors is **my interests aren't aligned with AI's progress**. Every leap forward is supposed to be good news — but for someone trying to build something meaningful, it mostly feels like the ground shifting beneath your feet.
 
-Then a concept came to me: `nowork`.
+Then a concept came to me: **nowork**.
 
 I can build a tool that automates away my own repetitive work. Since I don't want to work, probably I can get motivated to build tools that make my work unnecessary. And the AI models' update improves the tool or make the cost lower. 
 
 Back-office automation is actually the natural choice for many founders. The operations were the worst part of running my company for 8 years. Chasing down receipts every month, processing payroll, handling endless administrative tasks — none of it created any value. It was just friction.
 
-So I've decided to call the project nowork. The goal is simple: build tools that make the worst parts of work disappear.
+The goal of project **nowork** is simple: build tools that make the worst parts of work disappear.
 
 The first tool I'm building is something that automatically retrieves receipts and invoices from SaaS services. Every month, downloading PDFs from a dozen different portals is a mindless waste of time. Although it's kind of classic product idea with a bunch of incumbents, we should be able to hand that off entirely with the power of AI.
 
-I don't know how the product idea will work out. But this single principle makes me feel much better: align your interests with AI's progress, not against it. If you've felt the same paradox, I'd love to hear how you're thinking about it.
+I don't know how the product idea will work out. But this single principle makes me feel much better: **align your interests with AI's progress, not against it**. If you've felt the same paradox, I'd love to hear how you're thinking about it.
