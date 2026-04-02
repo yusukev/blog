@@ -28,4 +28,4 @@ So I've decided to call the project nowork. The goal is simple: build tools that
 
 The first tool I'm building is something that automatically retrieves receipts and invoices from SaaS services. Every month, downloading PDFs from a dozen different portals is a mindless waste of time. Although it's kind of classic product idea with a bunch of incumbents, we should be able to hand that off entirely with the power of AI.
 
-Curious what others think — what's the most soul-crushing admin task you'd want to automate first?
+I don't know how the product idea will work out. But this single principle makes me feel much better: align your interests with AI's progress, not against it. If you've felt the same paradox, I'd love to hear how you're thinking about it.
