@@ -18,7 +18,7 @@ What should I do at this point? That's a really tough question.
 
 After a long-time pondering, I found out the reason I get depressed or feel threatened by every update from AI vendors is **my interests aren't aligned with AI's progress**. Every leap forward is supposed to be good news — but for someone trying to build something meaningful, it mostly feels like the ground shifting beneath your feet.
 
-Then a concept came to me: nowork.
+Then a concept came to me: `nowork`.
 
 I can build a tool that automates away my own repetitive work. Since I don't want to work, probably I can get motivated to build tools that make my work unnecessary. And the AI models' update improves the tool or make the cost lower. 
 
