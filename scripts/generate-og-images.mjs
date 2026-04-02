@@ -4,7 +4,7 @@ import matter from 'gray-matter'
 import satori from 'satori'
 import sharp from 'sharp'
 
-const BLOG_DIR = 'src/content/blog'
+const BLOG_DIR = 'src/content'
 const OG_DIR = 'public/og'
 const FONT_PATH = 'public/fonts/atkinson-bold.woff'
 
