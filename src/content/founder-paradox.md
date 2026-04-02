@@ -1,6 +1,6 @@
 ---
 title: "The Founder's Paradox in AI generation"
-description: 'Building a Minimal Web Highlighter with Claude Code'
+description: 'As an entrepreneur, I have a paradoxical feeling these days.'
 pubDate: 'Apr 02 2026'
 ---
 
